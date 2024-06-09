@@ -11,5 +11,15 @@
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
-  }
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "tabs",
+    "identity"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "https://localhost/*"
+  ]
 }
